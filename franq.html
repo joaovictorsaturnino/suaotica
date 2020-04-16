@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/franq.css">
+    <title>Seja franqueado</title>
+</head>
+<body>
+    <div class="container">  
+      <form id="contact" action="./email.php" method="POST">
+        <h4>PREENCHA O FORMULÁRIO E CONHEÇA AS VANTAGENS DE SER NOSSO FRANQUEADO</h4>
+        
+        <fieldset>
+          <p>Nome Completo</p>
+          <input placeholder="Seu nome" type="text" name="name" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <p>Email para contato</p>
+          <input placeholder="Ex: email@email.com" type="email" name="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <p>Whatsapp</p>      
+          <input placeholder="Ex: (84) 9999-9999" type="tel" name="whats" tabindex="3" required>
+        </fieldset>
+        <fieldset>
+            <p>Capital disponível para investimento</p>
+          <select placeholder="Capital disponível para investimento" name="capital">
+              <option>Selecione</option>
+              <option>a partir de R$ 25.000</option>
+              </select>
+        </fieldset>
+          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+        </fieldset>
+      </form>
+    </div> 
+</body>
+</html>
